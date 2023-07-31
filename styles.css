@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  width: 100%;
+}
+.watchface-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.watchface-container > span {
+  padding: 0.5rem;
+  width: 25%;
+  text-align: center;
+}
+
+#tens {
+  font-size: 1.7rem;
+}
+.controller-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.controller-container > button {
+  font-weight: 700;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: aqua;
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.controller-container > button:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#button-start:focus {
+  background-color: black;
+  color: aqua;
+}
+
+#button-stop:focus {
+  background-color: black;
+  color: aqua;
+}
